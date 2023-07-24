@@ -9,14 +9,16 @@ then
 		cd /home/coder/project/workspace/springapp/;
 		mvn clean test;
     else
-        echo "BEadd_user FAILED";
-        echo "BEadd_profile FAILED";
-        echo "BEget_profile FAILED";
-        echo "BEupdate_profile FAILED";
+        echo "testGetProfileAll FAILED";
+        echo "testGetProfileById FAILED";
+        echo "testCreateProfile FAILED";
+        echo "test_case1 FAILED";
+        echo "test_case2 FAILED";
     fi
 else
-	echo "BEadd_user FAILED";
-    echo "BEprofile FAILED";
-    echo "BEget_profile FAILED";
-    echo "BEupdate_profile FAILED";
+	    echo "testGetProfileAll FAILED";
+        echo "testGetProfileById FAILED";
+        echo "testCreateProfile FAILED";
+        echo "test_case1 FAILED";
+        echo "test_case2 FAILED";
 fi

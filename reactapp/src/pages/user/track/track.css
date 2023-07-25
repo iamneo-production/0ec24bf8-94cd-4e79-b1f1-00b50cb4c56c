@@ -1,37 +1,36 @@
 .track-page {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .track-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .track-container > input {
-    background-color: var(--inputColor);
-    border: none;
-    outline: none;
-    padding: 20px 40px;
-    margin: 10px;
-    border-radius: 12px;
-    transition: 0.3s ease;
-  }
-  
-  .track-container > button {
-    background-color: var(--secondaryColor);
-    color: var(--white);
-    padding: 10px;
-    border-radius: 32px;
-    border: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin-bottom: 20px;
-    font-size: 18px;
-    cursor: pointer;
-  }
-  
-  
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.track-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.track-container > input {
+  background-color: var(--inputColor);
+  border: none;
+  outline: none;
+  padding: 20px 40px;
+  margin: 10px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.track-container > button {
+  background-color: var(--secondaryColor);
+  color: var(--white);
+  padding: 10px;
+  border-radius: 32px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+

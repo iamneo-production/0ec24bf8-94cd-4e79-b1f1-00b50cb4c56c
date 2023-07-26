@@ -1,6 +1,6 @@
 import React from 'react'
 import {Routes, BrowserRouter, Route} from "react-router-dom"
-import LoginPage from './pages/Auth/LoginPage'
+//import LoginPage from './pages/Auth/LoginPage'
 import SignupPage from './pages/Auth/SignupPage'
 // import Navbar from './pages/user/navbar/Navbar'
 // import ApplyCard from './pages/user/apply/applyCard'
@@ -20,7 +20,7 @@ const App = () => {
     <BrowserRouter>
     <UserProvider>
     <Routes>
-        <Route path='/' element={<LoginPage />} />
+        {/* <Route path='/' element={<LoginPage />} /> */}
         <Route path='/signup' element={<SignupPage />} />
         {/* <Route path="/applycard" element={<ApplyCard />} />
         <Route path='/correctionForm' element={<CorrectionForm />} />

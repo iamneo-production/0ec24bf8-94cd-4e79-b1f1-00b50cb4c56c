@@ -32,10 +32,13 @@
 		</attributes>
 	</classpathentry>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> abcee0066189caa56655d8d0f0f6b3d26f3785b8
 	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
@@ -49,10 +52,13 @@
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
+<<<<<<< HEAD
 >>>>>>> 5d88dc628d96043899041582336ca7112c34463a
 =======
 >>>>>>> main
 >>>>>>> 98e429964d696e10177da7108baac4a1e0550993
+=======
+>>>>>>> abcee0066189caa56655d8d0f0f6b3d26f3785b8
 	<classpathentry kind="src" output="target/test-classes" path="target/generated-test-sources/test-annotations">
 		<attributes>
 			<attribute name="optional" value="true"/>

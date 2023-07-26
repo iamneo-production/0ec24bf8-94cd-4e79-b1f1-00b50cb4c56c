@@ -1,4 +1,5 @@
-node_modules/
+puppeteer/
+.settings/
 done
 junit
 target

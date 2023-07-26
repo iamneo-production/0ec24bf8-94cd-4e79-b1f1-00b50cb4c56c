@@ -1,5 +1,6 @@
 node_modules/
 done
+<<<<<<< HEAD
 junit
 target
 .vscode/
@@ -10,3 +11,5 @@ node_modules/
 
 springapp/.classpath
 springapp/.project
+=======
+>>>>>>> main

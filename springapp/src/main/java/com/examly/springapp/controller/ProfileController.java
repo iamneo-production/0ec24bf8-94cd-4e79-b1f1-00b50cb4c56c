@@ -1,7 +1,7 @@
-package com.example.reacts.Controller;
+package com.examly.springapp.controller;
 
-import com.example.reacts.Model.Profile;
-import com.example.reacts.Service.ProfileService;
+import com.examly.springapp.model.Profile;
+import com.examly.springapp.service.ProfileService;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +20,7 @@ public class ProfileController {
     ProfileService profileService;
 
     // for test case - creating profile
-    @PostMapping("/admin/profile")
+    @PostMapping("admin/profile")
     public ResponseEntity<?> addProfile(@RequestBody Profile userProfile){
         Profile savedUserProfile = profileService.createProfile(userProfile);
 

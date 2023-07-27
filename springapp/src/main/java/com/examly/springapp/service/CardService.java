@@ -1,7 +1,7 @@
-package com.example.reacts.Service;
+package com.examly.springapp.service;
 
-import com.example.reacts.Model.NewCard;
-import com.example.reacts.Repository.CardRepo;
+import com.examly.springapp.model.NewCard;
+import com.examly.springapp.repository.CardRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

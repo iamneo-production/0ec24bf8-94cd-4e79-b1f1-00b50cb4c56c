@@ -1,7 +1,7 @@
-package com.example.reacts.Service;
+package com.examly.springapp.service;
 
-import com.example.reacts.Model.DocsModel;
-import com.example.reacts.Repository.DocRepo;
+import com.examly.springapp.model.DocsModel;
+import com.examly.springapp.repository.DocRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

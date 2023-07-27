@@ -1,6 +1,6 @@
-package com.example.reacts.Repository;
+package com.examly.springapp.repository;
 
-import com.example.reacts.Model.NewCard;
+import com.examly.springapp.model.NewCard;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

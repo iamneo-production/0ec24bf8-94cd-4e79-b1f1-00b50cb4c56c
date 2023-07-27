@@ -1,10 +1,10 @@
-package com.example.reacts.Controller;
+package com.examly.springapp.controller;
 
-import com.example.reacts.Model.JwtResponse;
-import com.example.reacts.Model.UserModel;
+import com.examly.springapp.model.JwtResponse;
+import com.examly.springapp.model.UserModel;
 
-import com.example.reacts.Service.JwtService;
-import com.example.reacts.Service.UserModelService;
+import com.examly.springapp.service.JwtService;
+import com.examly.springapp.service.UserModelService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

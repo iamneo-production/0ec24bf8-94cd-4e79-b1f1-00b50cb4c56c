@@ -1,4 +1,4 @@
-package com.example.reacts.Model;
+package com.examly.springapp.model;
 
 import lombok.*;
 

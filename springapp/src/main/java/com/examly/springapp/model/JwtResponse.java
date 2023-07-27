@@ -1,4 +1,4 @@
-package com.example.reacts.Model;
+package com.examly.springapp.model;
 
 public class JwtResponse {
     UserModel user ;

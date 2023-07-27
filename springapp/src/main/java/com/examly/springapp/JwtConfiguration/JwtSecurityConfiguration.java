@@ -1,4 +1,4 @@
-package com.example.reacts.JwtConfiguration;
+package com.examly.springapp.JwtConfiguration;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -23,7 +23,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
-public class JwtSecuruityConfiguration extends WebSecurityConfigurerAdapter {
+public class JwtSecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Autowired
     private JwtRequestFilter jwtRequestFilter;
@@ -53,8 +53,9 @@ public class JwtSecuruityConfiguration extends WebSecurityConfigurerAdapter {
         http.cors();
         http.csrf().disable()
                 .authorizeRequests()
-                .antMatchers("/user/signup", "/user/login", "/").permitAll()
-                .anyRequest().authenticated()
+                .anyRequest().permitAll()
+                // .antMatchers("/user/signup", "/user/login", "/").permitAll()
+                // .anyRequest().authenticated()
                 .and()
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()

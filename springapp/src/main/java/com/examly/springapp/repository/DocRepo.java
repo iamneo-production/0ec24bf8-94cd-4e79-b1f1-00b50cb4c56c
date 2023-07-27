@@ -1,6 +1,6 @@
-package com.example.reacts.Repository;
+package com.examly.springapp.repository;
 
-import com.example.reacts.Model.DocsModel;
+import com.examly.springapp.model.DocsModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

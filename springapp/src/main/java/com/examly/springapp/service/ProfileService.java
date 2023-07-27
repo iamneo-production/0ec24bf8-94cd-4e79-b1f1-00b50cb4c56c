@@ -1,7 +1,7 @@
-package com.example.reacts.Service;
+package com.examly.springapp.service;
 
-import com.example.reacts.Model.Profile;
-import com.example.reacts.Repository.ProfileRepo;
+import com.examly.springapp.model.Profile;
+import com.examly.springapp.repository.ProfileRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

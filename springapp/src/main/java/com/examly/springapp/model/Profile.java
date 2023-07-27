@@ -1,4 +1,4 @@
-package com.example.reacts.Model;
+package com.examly.springapp.model;
 
 import lombok.*;
 
@@ -16,13 +16,12 @@ import javax.persistence.Id;
 public class Profile {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    int id;
+    long id;
     String email;
     String password;
     String username;
     String mobileNumber;
     String userRole;
     String fName;
-    String lName;
-    String place ;
+    long place;
 }

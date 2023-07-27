@@ -1,7 +1,7 @@
-package com.example.reacts.Service;
+package com.examly.springapp.service;
 
 
-import com.example.reacts.Model.UserModel;
+import com.examly.springapp.model.UserModel;
 
 
 import lombok.RequiredArgsConstructor;
@@ -15,9 +15,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 
-import com.example.reacts.Repository.UserModelRepository;
-
-
+import com.examly.springapp.repository.UserModelRepository;
 
 
 @Service
@@ -30,10 +28,6 @@ public class UserModelService  {
 	@Autowired
 	private BCryptPasswordEncoder passwordEncoder;
 
-
-
-
-
 	public boolean userAldreadyExist(String username) {
 		return userModelRepository.findUserByEmail(username) != null;
 	}
@@ -43,11 +37,6 @@ public class UserModelService  {
 		userModel.setPassword(passwordEncoder.encode(userModel.getPassword()));
 		return userModelRepository.save(userModel);
 	}
-
-
-
-
-
 
 
   public UserModel findUserByEmail(String email){

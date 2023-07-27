@@ -1,7 +1,7 @@
-package com.example.reacts.Controller;
+package com.examly.springapp.controller;
 
-import com.example.reacts.Model.DocsModel;
-import com.example.reacts.Service.DocService;
+import com.examly.springapp.model.DocsModel;
+import com.examly.springapp.service.DocService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.query.Param;
 import org.springframework.http.HttpStatus;

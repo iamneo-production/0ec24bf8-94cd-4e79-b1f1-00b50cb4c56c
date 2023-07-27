@@ -1,7 +1,7 @@
-package com.example.reacts.Controller;
+package com.examly.springapp.controller;
 
-import com.example.reacts.Model.NewCard;
-import com.example.reacts.Service.CardService;
+import com.examly.springapp.model.NewCard;
+import com.examly.springapp.service.CardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

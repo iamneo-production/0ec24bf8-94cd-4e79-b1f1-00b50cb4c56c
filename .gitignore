@@ -1,2 +1,10 @@
-node_modules/
+puppeteer/
+.settings/
 done
+junit
+target
+.vscode/
+react
+puppeteer
+puppeteer/
+target/

@@ -251,6 +251,8 @@ const ApplyCard = () => {
       return;
     }
 
+     // Check if pincode fields have 6 digits
+
     if (formData?.pincode && formData?.pincode.length !== 6) {
       window.alert("Invalid pincode. Please fill again.");
       return;

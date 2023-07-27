@@ -1,13 +1,13 @@
-package com.examly.springapp;
+package com.example.reacts;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringappApplication {
+public class SecondspringappforreactvirtusaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringappApplication.class, args);
+		SpringApplication.run(SecondspringappforreactvirtusaApplication.class, args);
 	}
 
 }

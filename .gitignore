@@ -1,8 +1,7 @@
 puppeteer/
 .settings/
 done
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 junit
 target
 .vscode/
@@ -13,12 +12,3 @@ node_modules/
 
 springapp/.classpath
 springapp/.project
-=======
->>>>>>> main
-=======
-.classpath
-.project
-junit
-react
-
->>>>>>> abcee0066189caa56655d8d0f0f6b3d26f3785b8

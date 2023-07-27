@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, {useState} from "react";
 import {Link,useNavigate } from "react-router-dom";
 import axios from "axios";
@@ -7,6 +6,8 @@ import "./AuthPage.css"
 import { useContext, useEffect } from "react";
 import UserContext from "../../context/UserContext";
 import signupImage from "../../assets/signup-image.png"
+
+import toast, { Toaster } from "react-hot-toast"
 
 const SignupPage = () => {
   const navigate = useNavigate();
@@ -27,7 +28,7 @@ const SignupPage = () => {
 
 
  async function handleSignup(){
-    if(userType==="" ||  email==="" || userName==="" || mobileNumber==="" || password==="" || confirmPassword===""){
+    if(userType ==="" ||  email==="" || userName==="" || mobileNumber==="" || password==="" || confirmPassword===""){
       alert("Please enter all fields")
       console.log("Please enter all details")
     }
@@ -66,9 +67,10 @@ const SignupPage = () => {
       try{
         const res = await axios.post(`${BASE_URL}/user/signup`,user);
         if(res.status ==200){
+          toast.success("signup successful");
           console.log("res",res.data)
           setUserModel(res.data)
-          console.log("context_api_userModel",userModel)
+          // console.log("userwithjwt_userModel",res.data.userModel,res.data.jwt)
           localStorage.setItem("currentUser",JSON.stringify(res.data))
          window.location.href = "/" 
         }else{
@@ -141,14 +143,3 @@ const SignupPage = () => {
 }
 
 export default SignupPage;
-=======
-import React from 'react'
-
-const SignupPage = () => {
-  return (
-    <div>SignupPage</div>
-  )
-}
-
-export default SignupPage
->>>>>>> abcee0066189caa56655d8d0f0f6b3d26f3785b8

@@ -7,7 +7,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
@@ -16,29 +16,12 @@ import javax.persistence.Id;
 public class Profile {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    int id;
-    long temp ;
+    long id;
     String email;
     String password;
     String username;
     String mobileNumber;
     String userRole;
-    String fname ;
-    long tmep2;
-
-    
- 
-    public Profile(long temp, String email, String password, String username, String mobileNumber, String userRole,
-            String fname, long tmep2) {
-        this.temp = temp;
-        this.email = email;
-        this.password = password;
-        this.username = username;
-        this.mobileNumber = mobileNumber;
-        this.userRole = userRole;
-        this.fname = fname;
-        this.tmep2 = tmep2;
-    }
-
-    
+    String fName;
+    long place;
 }

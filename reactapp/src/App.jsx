@@ -2,7 +2,7 @@ import React from 'react'
 import LoginPage from './pages/Auth/LoginPage'
 import SignupPage from './pages/Auth/SignupPage'
 import Navbar from './pages/user/navbar/Navbar'
-import ApplyCard from './pages/user/apply/applyCard'
+import ApplyCard from './pages/user/apply/ApplyCard'
 import CorrectionForm from "./pages/user/correction/CorrectionForm"
 import TrackStatus from './pages/user/track/TrackStatus'
 import ErrorPage from './pages/misc/ErrorPage'

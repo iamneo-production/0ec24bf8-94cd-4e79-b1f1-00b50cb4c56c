@@ -87,4 +87,4 @@ const ApplicationCard = () => {
   )
 }
 
-export default ApplicationCard;
+export default ApplicationCard

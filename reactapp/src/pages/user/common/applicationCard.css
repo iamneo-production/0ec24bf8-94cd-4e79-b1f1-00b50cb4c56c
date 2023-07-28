@@ -1,63 +1,63 @@
 .application-card {
-    background-color: var(--white);
-    width: 60vw;
-    /* padding: 20px; */
-  }
-  
-  .application-data {
-    background-color: var(--white);
-    border: 1px solid lightgray;
-    padding: 20px;
-    border-radius: 18px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
-  
-  .application-data-top {
-    border: 1px solid lightgray;
-    padding: 20px;
-    border-radius: 18px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  }
-  
-  .application-data-bottom {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 20px;
-  }
-  
-  .application-data-left {
-    width: 100%;
-    /* background-color: red; */
-  }
-  
-  .application-data-left > p {
-    margin: 4px;
-    border: 1px solid lightgray;
-    border-radius: 18px;
-    padding: 20px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  }
-  
-  .application-data-right {
-    /* background-color: red; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .status-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 30px;
-  }
-  
-  .status-container > img {
-    width: 40%;
-    object-fit: contain;
-  }
-  
-  .status-container > h1 {
-    text-align: center;
-  }
+  background-color: var(--white);
+  width: 60vw;
+  /* padding: 20px; */
+}
+
+.application-data {
+  background-color: var(--white);
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.application-data-top {
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.application-data-bottom {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.application-data-left {
+  width: 100%;
+  /* background-color: red; */
+}
+
+.application-data-left > p {
+  margin: 4px;
+  border: 1px solid lightgray;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.application-data-right {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.status-container > img {
+  width: 40%;
+  object-fit: contain;
+}
+
+.status-container > h1 {
+  text-align: center;
+}

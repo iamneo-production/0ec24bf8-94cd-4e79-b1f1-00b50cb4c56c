@@ -28,7 +28,7 @@ const SignupPage = () => {
 
 
  async function handleSignup(){
-    if(userType ==="" ||  email==="" || userName==="" || mobileNumber==="" || password==="" || confirmPassword===""){
+    if(userType==="" ||  email==="" || userName==="" || mobileNumber==="" || password==="" || confirmPassword===""){
       alert("Please enter all fields")
       console.log("Please enter all details")
     }

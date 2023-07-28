@@ -14,6 +14,7 @@ import {Routes, BrowserRouter, Route} from "react-router-dom"
 import SuccessPage from './pages/misc/SuccessPage'
 import ApplicationCard from './pages/user/ApplicationCard'
 import { UserProvider } from './context/UserContext'
+import { Toaster } from 'react-hot-toast'
 
 const App = () => {
   return (
@@ -28,6 +29,8 @@ const App = () => {
         <Route path="/singleCard/:id" element={<ApplicationCard />}/>
         <Route path="/applycard/:id" element={<SuccessPage message={"Your application has been submitted successfully!"} />} />
         <Route path="/correctionForm/:id" element={<SuccessPage message={"Your application has been submitted for correction successfully!"} />} />
+
+        
         <Route path="/admin/appliedDocs" element={<AppliedDocs />} />
         <Route path="/admin/verification" element={<AdminError message={"Select an application first"} />} />
         <Route path='/admin/verification/:id' element={<VerificationPage />} />
@@ -35,6 +38,14 @@ const App = () => {
         <Route path='*' element={<ErrorPage message={"Oops! you seem to be in the wrong place"} />} />  
       </Routes>
     </UserProvider>
+
+    <Toaster
+      position="top-center"
+      reverseOrder={false}
+      toastOptions={{
+        duration: 3000,
+      }}
+    />
     </BrowserRouter>
   )
 }

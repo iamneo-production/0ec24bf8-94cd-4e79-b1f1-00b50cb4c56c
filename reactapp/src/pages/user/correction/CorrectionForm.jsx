@@ -117,7 +117,6 @@ const CorrectionForm = () => {
             {secondPage ? (
         <div className='second-page rise'>
           <div className="second-page-container"> 
-            <div className="input-list">
               <select>
                 <option value="select">Select document type</option>
                 <option value="Driving License">Driving License</option>
@@ -139,7 +138,6 @@ const CorrectionForm = () => {
               </div>
             </div>
           </div>
-        </div>
       ) : (
         <div className="application-page">
         <div className="application-container rise">

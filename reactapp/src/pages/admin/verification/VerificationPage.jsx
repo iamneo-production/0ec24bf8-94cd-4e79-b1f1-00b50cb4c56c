@@ -1,7 +1,7 @@
 import React,{useEffect,useState} from 'react'
 import AdminNavbar from '../navbar/AdminNavbar'
 import { useParams } from 'react-router-dom'
-import "./verification.css"
+import "./verificatio.css"
 import { BASE_URL,getHeader } from "../../../utils/constants";
 import axios from "axios";
 import { useNavigate } from 'react-router-dom';

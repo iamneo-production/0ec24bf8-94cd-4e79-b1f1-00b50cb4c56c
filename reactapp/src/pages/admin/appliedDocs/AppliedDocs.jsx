@@ -45,4 +45,4 @@ console.log("filterData",filterData);
   )
 }
 
-export default AppliedDocs;
+export default AppliedDocs

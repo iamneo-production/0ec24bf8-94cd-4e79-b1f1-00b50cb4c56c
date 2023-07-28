@@ -1,9 +1,9 @@
-package com.example.reacts.JwtConfiguration;
+package com.examly.springapp.JwtConfiguration;
 
-import com.example.reacts.Model.UserModel;
-import com.example.reacts.Repository.UserModelRepository;
-import com.example.reacts.Service.JwtService;
-import com.example.reacts.Service.UserModelService;
+import com.examly.springapp.model.UserModel;
+import com.examly.springapp.repository.UserModelRepository;
+import com.examly.springapp.service.JwtService;
+import com.examly.springapp.service.UserModelService;
 import io.jsonwebtoken.Claims;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

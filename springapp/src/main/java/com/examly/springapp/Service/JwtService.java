@@ -1,7 +1,7 @@
-package com.example.reacts.Service;
+package com.examly.springapp.service;
 
-import com.example.reacts.Model.UserModel;
-import com.example.reacts.Repository.UserModelRepository;
+import com.examly.springapp.model.UserModel;
+import com.examly.springapp.repository.UserModelRepository;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

@@ -1,1 +1,14 @@
 done
+puppeteer/
+.settings/
+
+junit
+target
+.vscode/
+react
+puppeteer
+
+node_modules/
+
+springapp/.classpath
+springapp/.project

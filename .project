@@ -22,12 +22,52 @@
 	</natures>
 	<filteredResources>
 		<filter>
+<<<<<<< HEAD
 			<id>1690552146214</id>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+			<id>1689860207519</id>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+			<id>1681484116237</id>
+=======
+			<id>1689772441023</id>
+>>>>>>> 5d88dc628d96043899041582336ca7112c34463a
+=======
+			<id>1681484116237</id>
+>>>>>>> main
+>>>>>>> 98e429964d696e10177da7108baac4a1e0550993
+=======
+			<id>1690302530350</id>
+>>>>>>> abcee0066189caa56655d8d0f0f6b3d26f3785b8
+>>>>>>> ffe8d74237ac3f09e43a25faf007bb12cc8c50f2
 			<name></name>
 			<type>30</type>
 			<matcher>
 				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+<<<<<<< HEAD
 				<arguments>node_modules|\.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+				<arguments>node_modules|.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+				<arguments>node_modules|.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
+=======
+				<arguments>node_modules|\.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
+>>>>>>> 5d88dc628d96043899041582336ca7112c34463a
+=======
+				<arguments>node_modules|.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
+>>>>>>> main
+>>>>>>> 98e429964d696e10177da7108baac4a1e0550993
+=======
+				<arguments>node_modules|\.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
+>>>>>>> abcee0066189caa56655d8d0f0f6b3d26f3785b8
+>>>>>>> ffe8d74237ac3f09e43a25faf007bb12cc8c50f2
 			</matcher>
 		</filter>
 	</filteredResources>

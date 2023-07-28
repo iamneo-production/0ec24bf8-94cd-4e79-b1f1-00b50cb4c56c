@@ -1,10 +1,12 @@
-puppeteer/
-.settings/
+node_modules/
 done
 junit
 target
 .vscode/
-react
-puppeteer
-puppeteer/
-target/
+# react
+# puppeteer
+
+node_modules/
+
+springapp/.classpath
+springapp/.project

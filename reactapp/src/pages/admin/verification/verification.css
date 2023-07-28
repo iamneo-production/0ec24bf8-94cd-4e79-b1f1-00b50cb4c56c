@@ -1,55 +1,54 @@
 .verification-page {
-    width: 100%;
-    min-height: 100vh;
-    /* margin-top: 4%; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .verification-container {
-    padding: 20px;
-    background-color: white;
-    width: 60%;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 18px;
-  }
-  
-  .verification-left {
-    /* background-color: blue; */
-  }
-  
-  .verification-left > p, .verification-left > h1 {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding: 14px;
-    margin: 14px;
-    border-radius: 12px;
-  }
-  
-  .verification-left > p > span, .verification-left > h1 > span {
-    color: var(--adminMain);
-  }
-  
-  .verification-right {
-    /* background-color: green; */
-    display: flex;
-    justify-content: center;
-    align-items: end;  
-  }
-  
-  .verification-right > .input-list {
-    /* background-color: red; */
-    width: 100%;
-  }
-  
-  .verification-right > .input-list > button.approve {
-    background-color: var(--adminMain);
-  }
-  
-  .verification-right>.input-list>button.reject {
-    background-color: var(--black);
-    color: var(--white);
-  }
-  
+  width: 100%;
+  min-height: 100vh;
+  /* margin-top: 4%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.verification-container {
+  padding: 20px;
+  background-color: white;
+  width: 60%;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 18px;
+}
+
+.verification-left {
+  /* background-color: blue; */
+}
+
+.verification-left > p, .verification-left > h1 {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 14px;
+  margin: 14px;
+  border-radius: 12px;
+}
+
+.verification-left > p > span, .verification-left > h1 > span {
+  color: var(--adminMain);
+}
+
+.verification-right {
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  align-items: end;  
+}
+
+.verification-right > .input-list {
+  /* background-color: red; */
+  width: 100%;
+}
+
+.verification-right > .input-list > button.approve {
+  background-color: var(--adminMain);
+}
+
+.verification-right>.input-list>button.reject {
+  background-color: var(--black);
+  color: var(--white);
+}

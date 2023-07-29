@@ -1,8 +1,25 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+node_modules/
+>>>>>>> c8022e18369a5a1d9ac4c62f262a562c18a0678c
+>>>>>>> Online_Aadhaar_Portal-KattachaithanyaKumar
 done
 junit
 target
 .vscode/
+<<<<<<< HEAD
 react
 puppeteer
 puppeteer/
 target/
+=======
+# react
+# puppeteer
+
+node_modules/
+
+springapp/.classpath
+springapp/.project
+>>>>>>> c8022e18369a5a1d9ac4c62f262a562c18a0678c

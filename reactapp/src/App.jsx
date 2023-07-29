@@ -1,9 +1,3 @@
-<<<<<<< HEAD:reactapp/src/App.js
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-=======
 import React from 'react'
 import LoginPage from './pages/Auth/LoginPage'
 import SignupPage from './pages/Auth/SignupPage'
@@ -23,25 +17,37 @@ import { UserProvider } from './context/UserContext'
 import { Toaster } from 'react-hot-toast'
 
 const App = () => {
->>>>>>> c8022e18369a5a1d9ac4c62f262a562c18a0678c:reactapp/src/App.jsx
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+    <UserProvider>
+    <Routes>
+        <Route path='/' element={<LoginPage />} />
+        <Route path='/signup' element={<SignupPage />} />
+        <Route path="/applycard" element={<ApplyCard />} />
+        <Route path='/correctionForm' element={<CorrectionForm />} />
+        <Route path="/trackStatus" element={<TrackStatus />} />
+        <Route path="/singleCard/:id" element={<ApplicationCard />}/>
+        <Route path="/applycard/:id" element={<SuccessPage message={"Your application has been submitted successfully!"} />} />
+        <Route path="/correctionForm/:id" element={<SuccessPage message={"Your application has been submitted for correction successfully!"} />} />
+
+        
+        <Route path="/admin/appliedDocs" element={<AppliedDocs />} />
+        <Route path="/admin/verification" element={<AdminError message={"Select an application first"} />} />
+        <Route path='/admin/verification/:id' element={<VerificationPage />} />
+        <Route path='/admin/correctionDocs' element={<CorrectionDocs />} />
+        <Route path='*' element={<ErrorPage message={"Oops! you seem to be in the wrong place"} />} />  
+      </Routes>
+    </UserProvider>
+
+    <Toaster
+      position="top-center"
+      reverseOrder={false}
+      toastOptions={{
+        duration: 3000,
+      }}
+    />
+    </BrowserRouter>
+  )
 }
 
 export default App;

@@ -1,4 +1,4 @@
-export const BASE_URL = "https://8080-ecdaadcabcddabbcdedaeadabdedbf.project.examly.io";
+export const BASE_URL = "https://8080-cecabaaaddcddabbcdedadceabbdfb.project.examly.io";
 
 export function getHeader()
 {

@@ -29,4 +29,8 @@ public class DocService {
         savedDocOfUser.setDocument(editedDoc);
         return docRepo.save(savedDocOfUser);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> c8022e18369a5a1d9ac4c62f262a562c18a0678c

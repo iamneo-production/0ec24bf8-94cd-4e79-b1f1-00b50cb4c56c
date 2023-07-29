@@ -283,7 +283,6 @@ const ApplyCard = () => {
             <div className='second-page rise'>
               <div className="second-page-container"> 
                 <div className="input-list">
-                  <input type="text" />
                   <select>
                     <option value="select">Select document type</option>
                     <option value="Driving License">Driving License</option>

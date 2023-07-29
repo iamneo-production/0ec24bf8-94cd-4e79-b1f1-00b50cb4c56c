@@ -52,4 +52,8 @@ public class CardController {
         List<NewCard> allApplicatioonsInDb = cardService.getAllCards();
         return ResponseEntity.ok("");
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> c8022e18369a5a1d9ac4c62f262a562c18a0678c

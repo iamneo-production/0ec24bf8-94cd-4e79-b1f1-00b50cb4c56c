@@ -43,8 +43,4 @@ public class DocController {
                 : new ResponseEntity<>(HttpStatus.NOT_FOUND)
                 ;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> c8022e18369a5a1d9ac4c62f262a562c18a0678c

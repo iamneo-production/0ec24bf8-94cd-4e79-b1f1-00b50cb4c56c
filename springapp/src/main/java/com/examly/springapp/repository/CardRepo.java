@@ -9,8 +9,4 @@ public interface CardRepo extends JpaRepository<NewCard,Integer> {
     NewCard findNewCardById(Integer id);
 
     NewCard findNewCardByEmailId(String email);
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> c8022e18369a5a1d9ac4c62f262a562c18a0678c

@@ -1,0 +1,106 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: var(--mainColor);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar.admin {
+    /* background-color: #1DBE72; */
+    /* background-color: #FF331C; */
+    /* background-color: #E9370C; */
+    background: rgb(82, 18, 89);
+      background: linear-gradient(90deg, rgba(82, 18, 89, 1) 0%, rgba(202, 51, 188, 1) 50%, rgba(82, 18, 89, 1) 100%);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  .logo > h1 {
+    color: var(--white);
+    cursor: pointer;
+  }
+  
+  .nav-links > button, .logout > button {
+    padding: 10px 30px;
+    margin: 12px;
+    background-color: var(--secondaryColor);
+    color: var(--white);
+    border: none;
+    outline: none;
+    border-radius: 32px;
+    cursor: pointer;
+  }
+  
+  .nav-links.admin > button {
+    /* background-color: #2FDF8C; */
+    /* background-color: #E81800; */
+    /* background-color: #F55933; */
+    background-color: #521259;
+  }
+  
+  
+  .nav-links > button.selected {
+    background-color: var(--white);
+    color: var(--black);
+    animation: fade 0.1s ease-in;
+  }
+  
+  .nav-links.admin > button.selected {
+    animation: admin-fade 0.1s ease-in;
+  }
+  
+  .logoutButton.admin {
+    /* background-color: #2FDF8C; */
+    /* background-color: #E81800; */
+    /* background-color: #F55933; */
+    background-color: #ca33bc;
+  }
+  
+  @keyframes fade {
+    0% {
+      background-color: var(--secondaryColor);
+      color: var(--white);
+    }
+    100% {
+      background-color: var(--white);
+      color: var(--black);
+    }
+  }
+  
+  @keyframes admin-fade {
+    0% {
+      /* background-color: #1DBE72; */
+      /* background-color: #FF331C; */
+      /* background-color: #E9370C; */
+      background-color: #521259;
+      color: var(--white);
+    }
+  
+    100% {
+      background-color: var(--white);
+      color: var(--black);
+    }
+  }
+  
+  .logout {
+    margin-right: 20px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+     .navbar {
+      flex-direction: column;
+     }
+     .nav-links > button, .logout > button {
+      padding: 10px;
+     }
+     .logout {
+      position: absolute;
+      right: 0;
+     }
+  }

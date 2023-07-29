@@ -11,7 +11,8 @@ import java.util.Arrays;
 public class DocService {
     @Autowired
     DocRepo docRepo;
-    public DocsModel  createDoc(byte[] doc,String email) {
+
+    public DocsModel createDoc(byte[] doc, String email) {
         DocsModel document = new DocsModel();
         document.setDocument(doc);
         document.setEmail(email);
@@ -19,11 +20,11 @@ public class DocService {
     }
 
     public byte[] getDocument(String email) {
-      DocsModel docsModel = docRepo.findDocsModelByEmail(email);
+        DocsModel docsModel = docRepo.findDocsModelByEmail(email);
         return docsModel.getDocument();
     }
 
-    public DocsModel editDocument(byte[] editedDoc,String email) {
+    public DocsModel editDocument(byte[] editedDoc, String email) {
 
         DocsModel savedDocOfUser = docRepo.findDocsModelByEmail(email);
         savedDocOfUser.setDocument(editedDoc);

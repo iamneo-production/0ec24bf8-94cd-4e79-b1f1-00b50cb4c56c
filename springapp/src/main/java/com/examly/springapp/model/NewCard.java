@@ -18,29 +18,29 @@ public class NewCard {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Integer id;
 
-    String status = "in_progress" ;
-    String  areaName ;
-    String  birthDate;
-    String profileUrl ;
+    String status = "in_progress";
+    String areaName;
+    String birthDate;
+    String profileUrl;
     String emailId;
     String fatherName;
-    String  firstName;
+    String firstName;
     String gender;
-    String  houseNo;
-    String  lastName;
-    String  motherName;
-    String  nationality;
+    String houseNo;
+    String lastName;
+    String motherName;
+    String nationality;
     String peAreaName;
     String peHouseNo;
-    String  peNationality;
+    String peNationality;
     String pePincode;
     String peState;
-    String  peStreetName;
-    String  phoneNumber1;
-    String  phoneNumber2;
-    String  pincode;
-    String  state;
+    String peStreetName;
+    String phoneNumber1;
+    String phoneNumber2;
+    String pincode;
+    String state;
     String streetName;
-    String aadhaarNumber ;
+    String aadhaarNumber;
 
 }

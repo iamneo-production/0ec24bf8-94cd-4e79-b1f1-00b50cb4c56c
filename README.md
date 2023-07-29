@@ -32,7 +32,7 @@ The Online Aadhaar Portal is a secure and user-friendly platform that provides i
 
 - [@Satyamray21](https://github.com/Satyamray21)
 
-- [@saikrishnasangu](https://github.com/Satyamray21)
+- [@Satyamray21](https://github.com/Satyamray21)
 
 - [@SmrutisreePaik](https://github.com/SmrutisreePaik)
 

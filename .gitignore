@@ -1,8 +1,8 @@
-puppeteer/
-.settings/
 done
-.classpath
-.project
 junit
+target
+.vscode/
 react
-
+puppeteer
+puppeteer/
+target/

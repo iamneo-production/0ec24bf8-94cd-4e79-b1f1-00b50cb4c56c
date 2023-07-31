@@ -251,6 +251,8 @@ const ApplyCard = () => {
       return;
     }
 
+     // Check if pincode fields have 6 digits
+
     if (formData?.pincode && formData?.pincode.length !== 6) {
       window.alert("Invalid pincode. Please fill again.");
       return;
@@ -281,7 +283,6 @@ const ApplyCard = () => {
             <div className='second-page rise'>
               <div className="second-page-container"> 
                 <div className="input-list">
-                  <input type="text" />
                   <select>
                     <option value="select">Select document type</option>
                     <option value="Driving License">Driving License</option>
